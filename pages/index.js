@@ -64,7 +64,7 @@ export async function getStaticProps() {
         };
       }),
     },
-    revalidate: 30,
+    revalidate: 1,
   };
 }
 export default HomePage;
